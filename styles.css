@@ -1,0 +1,511 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+    background-color: #696969;
+
+}
+
+/*LEESIN*/
+
+.card{
+    background-image: linear-gradient(black, black);
+    overflow:hidden;
+    border-radius: 16px;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all .5s;
+}
+
+
+.card:hover{
+    background-image: linear-gradient(45deg,black, red);
+}
+
+.card .img{
+    background-image: url('./assests/leesin.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: .8;
+    transition: all .5s;
+    z-index: 2;
+}
+
+.card:hover .img{
+    opacity: 1;
+    width: 400px;
+}
+
+.card .img span{
+
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    text-transform: uppercase;
+
+}
+
+.card .content {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+    transition:all .5s;
+    transform: translateY(30px);
+    
+}
+
+.card:hover .content{
+    padding: 20px;
+    height: 260px;
+    transform: translateY(0);
+}
+
+.card .content{
+    margin-bottom: 0%;
+}
+
+.card .content .title{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.card .content .desc{
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .7;
+}
+
+
+.card .arrow{
+    padding: 15px;
+    font-size: 28px;
+    transform:  rotate(-180deg);
+    transition: all .5s;
+}
+
+.card:hover .arrow{
+    transform: rotate(0);
+}
+
+
+/*KAYN*/
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    min-height: 100vh;
+    color: white;
+    background-color: #696969;
+}
+
+.card1{
+    background-image: linear-gradient(black, black);
+    overflow:hidden;
+    border-radius: 16px;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all .5s;
+}
+.card1:hover{
+    background-image: linear-gradient(45deg,blue, red);
+}
+.card1 .img1{
+    background-image: url('./assests/kayn.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: .8;
+    transition: all .5s;
+    z-index: 2;
+}
+.card1:hover .img1{
+    opacity: 1;
+    width: 400px;
+}
+.card1 .img1 span{
+
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    text-transform: uppercase;
+
+}
+.card1 .content1 {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+    transition:all .5s;
+    transform: translateY(30px);
+    
+}
+.card1:hover .content1{
+    padding: 20px;
+    height: 260px;
+    transform: translateY(0);
+}
+.card .content{
+    margin-bottom: 0%;
+}
+.card1 .content1 .title1{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.card1 .content1 .desc1{
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .7;
+}
+
+
+.card1 .arrow1{
+    padding: 15px;
+    font-size: 28px;
+    transform:  rotate(-180deg);
+    transition: all .5s;
+}
+
+.card1:hover .arrow1{
+    transform: rotate(0);
+}
+
+
+/*GRAVES*/
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    min-height: 100vh;
+    color: white;
+    background-color: #696969;
+}
+
+
+.card2{
+    background-image: linear-gradient(black, black);
+    overflow:hidden;
+    border-radius: 16px;
+    max-width: 360px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    transition: all .5s;
+    
+}
+
+
+.card2:hover{
+    background-image: linear-gradient(45deg,gray, yellow);
+}
+
+.card2 .img2{
+    background-image: url('./assests/graves.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: .8;
+    transition: all .5s;
+    z-index: 2;
+}
+
+.card2:hover .img2{
+    opacity: 1;
+    width: 400px;
+}
+
+.card2 .img2 span{
+
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    text-transform: uppercase;
+
+}
+
+.card2 .content2 {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+    transition:all .5s;
+    transform: translateY(30px);
+    
+}
+
+.card2:hover .content2{
+    padding: 20px;
+    height: 260px;
+    transform: translateY(0);
+}
+
+.card2 .content2{
+    margin-bottom: 0%;
+}
+
+.card2 .content2 .title2{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.card2 .content2 .desc2{
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .7;
+}
+
+
+.card2 .arrow2{
+    padding: 15px;
+    font-size: 28px;
+    transform:  rotate(-180deg);
+    transition: all .5s;
+}
+
+.card2:hover .arrow2{
+    transform: rotate(0);
+}
+
+
+/*KHAZIX*/
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    min-height: 100vh;
+    color: white;
+    background-color: #696969;
+}
+
+
+.card3{
+    background-image: linear-gradient(black, black);
+    overflow:hidden;
+    border-radius: 16px;
+    max-width: 360px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    transition: all .5s;
+    
+}
+
+
+.card3:hover{
+    background-image: linear-gradient(45deg,black, purple);
+}
+
+.card3 .img3{
+    background-image: url('./assests/khazix.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: .8;
+    transition: all .5s;
+    z-index: 2;
+}
+
+.card3:hover .img3{
+    opacity: 1;
+    width: 400px;
+}
+
+.card3 .img3 span{
+
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    text-transform: uppercase;
+
+}
+
+.card3 .content3 {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+    transition:all .5s;
+    transform: translateY(30px);
+    
+}
+
+.card3:hover .content3{
+    padding: 20px;
+    height: 260px;
+    transform: translateY(0);
+}
+
+.card3 .content3{
+    margin-bottom: 0%;
+}
+
+.card3 .content3 .title3{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.card3 .content3 .desc3{
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .7;
+}
+
+
+.card3 .arrow3{
+    padding: 15px;
+    font-size: 28px;
+    transform:  rotate(-180deg);
+    transition: all .5s;
+}
+
+.card3:hover .arrow3{
+    transform: rotate(0);
+}
+
+
+/*NIDALEE*/
+
+.container4{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    min-height: 100vh;
+    color: white;
+    background-color: #696969;
+}
+
+
+.card4{
+    background-image: linear-gradient(black, black);
+    overflow:hidden;
+    border-radius: 16px;
+    max-width: 360px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    transition: all .5s;
+    
+}
+
+
+.card4:hover{
+    background-image: linear-gradient(45deg,rgba(221, 91, 68, 0.411), green);
+}
+
+.card4 .img4{
+    background-image: url('./assests/nidalee.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: .8;
+    transition: all .5s;
+    z-index: 2;
+}
+
+.card4:hover .img4{
+    opacity: 1;
+    width: 400px;
+}
+
+.card4 .img4 span{
+
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    text-transform: uppercase;
+
+}
+
+.card4 .content4 {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+    transition:all .5s;
+    transform: translateY(30px);
+    
+}
+
+.card4:hover .content4{
+    padding: 20px;
+    height: 260px;
+    transform: translateY(0);
+}
+
+.card4 .content4{
+    margin-bottom: 0%;
+}
+
+.card4 .content4 .title4{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.card4 .content4 .desc4{
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .7;
+}
+
+
+.card4 .arrow4{
+    padding: 15px;
+    font-size: 28px;
+    transform:  rotate(-180deg);
+    transition: all .5s;
+}
+
+.card4:hover .arrow4{
+    transform: rotate(0);
+}
+
+
+
+
+
+
+
+
+
+
