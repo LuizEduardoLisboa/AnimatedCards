@@ -12,7 +12,7 @@ body{
     justify-content: center;
     min-height: 100vh;
     color: white;
-    background-color: #696969;
+    background-image: url('./assests/rift.jpg');
 
 }
 
@@ -115,7 +115,7 @@ body{
     justify-content: right;
     min-height: 100vh;
     color: white;
-    background-color: #696969;
+    
 }
 
 .card1{
@@ -204,7 +204,7 @@ body{
     justify-content: right;
     min-height: 100vh;
     color: white;
-    background-color: #696969;
+    
 }
 
 
@@ -305,7 +305,7 @@ body{
     justify-content: right;
     min-height: 100vh;
     color: white;
-    background-color: #696969;
+    
 }
 
 
@@ -407,7 +407,7 @@ body{
     justify-content: right;
     min-height: 100vh;
     color: white;
-    background-color: #696969;
+    
 }
 
 
